@@ -27,6 +27,39 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
+int find_median(unsigned char *test){
+
+	
+	
+
+}
+
+int find_mean(unsigned char *test) {
+	
+}
+void sort_array(unsigned char *test) {
+      
+}
+
+unsigned char find_maximum(unsigned char *test) {
+	
+}
+unsigned char find_minimum(unsigned char *test) {
+	
+}
+
+void print_statistics(unsigned char *test) {
+
+	
+}
+
+
+void print_array(unsigned char *test)  {
+	
+
+}
+
+
 
 
 void main() {
@@ -38,10 +71,11 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  	
+  	sort_array(test);
   	
   /* Statistics and Printing Functions Go Here */
-  
+  print_statistics(test);
+  print_array(test);
 
 }
 
