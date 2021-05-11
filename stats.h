@@ -27,7 +27,7 @@
  * @param It takes the test array as an input
  * @return it returns the Median
  */
-int find_median(unsigned char *test);
+int find_median(unsigned char *test,int size);
 
 
 /**
@@ -35,7 +35,7 @@ int find_median(unsigned char *test);
  * @param It takes the test array as an input
  * @return it returns the Mean
  */
-int find_mean(unsigned char *test);
+int find_mean(unsigned char *test,int size);
 
 
 /**
@@ -44,7 +44,7 @@ int find_mean(unsigned char *test);
  * @param It takes the test array as an input
  * @return it returns the Nothing
  */
-void sort_array(unsigned char *test);
+void sort_array(unsigned char *test,int size);
 
 
 
@@ -54,7 +54,7 @@ void sort_array(unsigned char *test);
  * @param It takes the test array as an input
  * @return it returns the Maximum
  */ 
-unsigned char find_maximum(unsigned char *test);
+unsigned char find_maximum(unsigned char *test,int size);
 
 
 /**
@@ -63,7 +63,7 @@ unsigned char find_maximum(unsigned char *test);
  * @param It takes the test array as an input
  * @return it returns the Minimum
  */
-unsigned char find_minimum(unsigned char *test);
+unsigned char find_minimum(unsigned char *test,int size);
 
 
 /**
@@ -72,7 +72,7 @@ unsigned char find_minimum(unsigned char *test);
  * @param It takes the test array as an input
  * @return it returns the Nothing
  */
-void print_statistics(unsigned char *test);
+void print_statistics(unsigned char *test,int size);
 
 
 /**
@@ -80,7 +80,7 @@ void print_statistics(unsigned char *test);
  * @param It takes the test sorted array as an input
  * @return it returns the Nothing
  */
-void print_array(unsigned char *test);
+void print_array(unsigned char *test,int size);
 
 
 
